@@ -1,0 +1,129 @@
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__header-container h1{
+  font-weight: 275;
+  position: relative;
+  top: 78px;
+  left: 60px;
+  font-size: 37px;
+  line-height: 56px;
+  letter-spacing: -0.005em;
+  color: var(--GrayishBlue-color);
+}
+.app__header-container h2{
+  font-weight: 600;
+  position: relative;
+  left: 60px;
+  top: 75px;
+  font-size: 37px;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  color: var(--DarkBlue-color);
+}
+.app__header-container p{
+  position: relative;
+  left: 8px;
+  top: 90px;
+  width: 537px;
+  height: 52px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--GrayishBlue-color);
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__section-cards .card-one{
+  position: relative;
+top: 202px;
+left: -390px;
+border-top-color: var(--Cyan-color);
+}
+.app__section-cards .card-two{
+  position: relative;
+top: -115px;
+left: 8px;
+border-top-color: var(--Red-color);
+}
+.app__section-cards .card-three{
+  position: relative;
+top: -80px;
+left: 8px;
+border-top-color: var(--Orange-color);
+}
+.app__section-cards .card-four{
+  position: relative;
+top: -548px;
+left: 415px;
+border-top-color: var(--Blue-color);
+}
+@media only screen and  (max-width:375px) {
+  .app__header-container h1{
+    position: relative;
+    top: 78px;
+    left: 38px;
+    font-size: 28px;
+  }
+  .app__header-container h2{
+    position: relative;
+    left: 38px;
+    top: 63px;
+    font-size: 28px;
+  }
+  .app__header-container p{
+    position: relative;
+    left: 40px;
+    top: 75px;
+    width: 315px;
+  }
+  .app__section-cards .card-one{
+transform: translate(192px,10px);
+  }
+  .app__section-cards .card-two{
+transform: translate(-179px,285px);
+  }
+  .app__section-cards .card-three{
+transform: translate(188px,275px);
+  }
+  .app__section-cards .card-four{
+transform: translate(-181px,550px);
+  }
+}
+@media only screen and (max-width:768px) {
+  .app__section-cards .card-one{
+        position: relative;
+    top: 135px;
+    left: -156px;
+  }
+  .app__section-cards .card-two{
+    position: relative;
+    top: -115px;
+    left: 214px;
+  }
+  .app__section-cards .card-three{
+    position: relative;
+    top: -80px;
+    left: -154px;
+  }
+  .app__section-cards .card-four{
+    position: relative;
+    top: -330px;
+    left: 214px;
+  }
+}
+@media screen and  (max-width:1280px) {
+  header{
+    margin-left: -60px;
+  }
+  section{
+    margin-left: -60px;
+  }
+}
